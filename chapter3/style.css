@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background: #fff;
+    color: #333;
+    padding: 0 2rem;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .menu a.active {
+    border-bottom: 2px solid green;
+    padding-bottom: 4px;
+  }
+  
+  .container {
+    display: flex;
+    gap: 4rem;
+    padding: 3rem 0;
+  }
+  
+  .contact-form {
+    flex: 2;
+  }
+  
+  .contact-form h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  form textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .upload-box {
+    border: 1px dashed #ccc;
+    padding: 1rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    background: green;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .checkbox {
+    font-size: 13px;
+    color: #555;
+  }
+  
+  .contact-info {
+    flex: 1;
+    font-size: 14px;
+  }
+  
+  .contact-info h3, .contact-info h4 {
+    margin: 20px 0 10px;
+  }
+  
+  .newsletter {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .newsletter input {
+    flex: 1;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .newsletter button {
+    background: green;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .error {
+    border-bottom: 1px solid red !important;
+  }
+  
+  .error-text {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  
